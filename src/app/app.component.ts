@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'md5-b3-color';
+  color: string = '';
+  funcolor(color: string ){
+    this.color = color;
+  }
 }
